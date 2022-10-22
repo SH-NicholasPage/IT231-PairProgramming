@@ -20,6 +20,7 @@ namespace BrokenTelephone
     {
         public static int Solve(int[] playerMessages)
         {
+            //TODO: Your code here
             throw new NotImplementedException();
         }
     }
