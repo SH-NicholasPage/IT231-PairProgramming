@@ -21,6 +21,7 @@ namespace BrokenTelephone
         public static int Solve(int[] playerMessages)
         {
             //TODO: Your code here
+            //This method should return how many players could have misheard or whispered incorrectly
             throw new NotImplementedException();
         }
     }
