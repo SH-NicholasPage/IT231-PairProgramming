@@ -19,7 +19,7 @@ namespace BrokenTelephone
             String[] lines = File.ReadAllLines("inputs.txt");
 
             float score = MAX_SCORE;
-            float detractor = MAX_SCORE / lines.Length;
+            float detractor = (float) MAX_SCORE / lines.Length * 2;
 
             for(int i = 0; i < lines.Length; i += 2)
             {
@@ -30,7 +30,7 @@ namespace BrokenTelephone
 
                 if(studentResult != answer)
                 {
-                    Console.WriteLine($"Answer for input {i/2} ({studentResult}) was incorrect.");
+                    Console.WriteLine($"Answer for input {(i/2) + 1} ({studentResult}) was incorrect.");
                     score -= detractor;
                 }
             }
