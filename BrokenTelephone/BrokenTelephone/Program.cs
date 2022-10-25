@@ -19,7 +19,7 @@ namespace BrokenTelephone
             String[] lines = File.ReadAllLines("inputs.txt");
 
             float score = MAX_SCORE;
-            float detractor = (float) MAX_SCORE / lines.Length * 2;
+            float detractor = (float) MAX_SCORE / (lines.Length / 2);
 
             for(int i = 0; i < lines.Length; i += 2)
             {
