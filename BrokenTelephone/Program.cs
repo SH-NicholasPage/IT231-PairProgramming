@@ -7,7 +7,7 @@ namespace BrokenTelephone
 {
     public sealed class Program
     {
-        private const byte MAX_SCORE = 20;
+        private const byte MAX_SCORE = 15;
 
         public static void Main()
         {

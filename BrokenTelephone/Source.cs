@@ -16,7 +16,7 @@ using System.Linq;
 
 namespace BrokenTelephone
 {
-    public sealed class Source
+    public static class Source
     {
         public static int Solve(int[] playerMessages)
         {
