@@ -14,14 +14,18 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BrokenTelephone;
+namespace LuckyNumberGame;
 
 public static class Source
 {
-    public static int Solve(int[] playerMessages)
+    public enum Winner
     {
-        //TODO: Your code here
-        //This method should return how many players could have misheard or whispered incorrectly
+        Bob, Alice
+    }
+
+    public static Winner Solve((int a, int b) luckyNums, int[] intSeq)
+    {
+        return Winner.Bob;
         throw new NotImplementedException();
     }
 }

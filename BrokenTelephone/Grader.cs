@@ -1,19 +1,23 @@
-﻿//DO NOT MODIFY THIS FILE
+﻿/* !!!
+ * DO NOT MODIFY THIS FILE
+ * !!!
+ */
 using System;
 using System.IO;
 using System.Linq;
 
 namespace BrokenTelephone
 {
-    public sealed class Program
+    public static class Grader
     {
-        private const byte MAX_SCORE = 15;
+        private const byte MAX_SCORE = 10;
 
         public static void Main()
         {
             if(File.Exists("inputs.txt") == false)
             {
                 Console.Error.WriteLine("ERROR: Input file could not be found! Tell the instructor about this error message ASAP.");
+                return;
             }
 
             String[] lines = File.ReadAllLines("inputs.txt");
