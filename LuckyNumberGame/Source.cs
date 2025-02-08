@@ -25,7 +25,7 @@ public static class Source
 
     public static Winner Solve((int a, int b) luckyNums, int[] intSeq)
     {
-        return Winner.Bob;
+        // TODO: Your code here
         throw new NotImplementedException();
     }
 }
